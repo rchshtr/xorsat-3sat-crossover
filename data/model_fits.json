@@ -1,0 +1,55 @@
+{
+  "description": "Model fits for XOR-SAT vs 3-SAT energy comparison",
+  "date": "2026-02-03",
+  "xorsat": {
+    "model": "polynomial",
+    "formula": "E = a * N^b",
+    "parameters": {
+      "a": 3.97,
+      "b": 1.63
+    },
+    "r_squared": 0.998,
+    "complexity_class": "P"
+  },
+  "3sat": {
+    "model": "exponential",
+    "formula": "E = a * exp(beta * N)",
+    "parameters": {
+      "a": 3.67,
+      "beta": 0.126
+    },
+    "r_squared": 0.995,
+    "complexity_class": "NP-complete"
+  },
+  "crossover": {
+    "point_N": 51,
+    "method": "numerical_solving",
+    "equation": "3.97 * N^1.63 = 3.67 * exp(0.126 * N)"
+  },
+  "phase_analysis": {
+    "phase_I": {
+      "range": "N < 50",
+      "description": "3-SAT cheaper than XOR-SAT",
+      "ratio_range": [0.08, 0.9]
+    },
+    "crossover": {
+      "range": "N ≈ 50",
+      "description": "Comparable costs"
+    },
+    "phase_III": {
+      "range": "N > 50",
+      "description": "Exponential blowup",
+      "milestones": {
+        "N_80": 17,
+        "N_150": 42366,
+        "N_200": 14435027
+      }
+    }
+  },
+  "experimental_conditions": {
+    "clause_to_variable_ratio": 4.26,
+    "instance_type": "UNSAT",
+    "solver_xorsat": "Gaussian elimination over GF(2)",
+    "solver_3sat": "DPLL with unit propagation"
+  }
+}

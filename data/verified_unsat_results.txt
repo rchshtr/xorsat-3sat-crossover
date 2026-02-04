@@ -1,0 +1,132 @@
+========================================
+VERIFIED UNSAT 3-SAT ENERGY BENCHMARK
+========================================
+
+Physical parameters:
+  Energy per backtrack: 1e-09 J
+  Landauer limit: 2.87098e-21 J
+  Margin above Landauer: 3.48313e+11x
+
+Testing N=20 (10 VERIFIED UNSAT instances)...
+  verified_unsat/N20/unsat_5.cnf: 73 backtracks, 7.3e-08 J, 80 μs, UNSAT
+  verified_unsat/N20/unsat_4.cnf: 23 backtracks, 2.3e-08 J, 35 μs, UNSAT
+  verified_unsat/N20/unsat_6.cnf: 63 backtracks, 6.3e-08 J, 77 μs, UNSAT
+  verified_unsat/N20/unsat_7.cnf: 31 backtracks, 3.1e-08 J, 43 μs, UNSAT
+  verified_unsat/N20/unsat_3.cnf: 23 backtracks, 2.3e-08 J, 36 μs, UNSAT
+  verified_unsat/N20/unsat_2.cnf: 57 backtracks, 5.7e-08 J, 58 μs, UNSAT
+  verified_unsat/N20/unsat_0.cnf: 21 backtracks, 2.1e-08 J, 22 μs, UNSAT
+  verified_unsat/N20/unsat_1.cnf: 23 backtracks, 2.3e-08 J, 36 μs, UNSAT
+  verified_unsat/N20/unsat_9.cnf: 39 backtracks, 3.9e-08 J, 45 μs, UNSAT
+  verified_unsat/N20/unsat_8.cnf: 59 backtracks, 5.9e-08 J, 63 μs, UNSAT
+  AVERAGE: 41.2 backtracks, 4.12e-08 J (hardness=0)
+  SAT/UNSAT: 0/10
+
+Testing N=22 (10 VERIFIED UNSAT instances)...
+  verified_unsat/N22/unsat_5.cnf: 113 backtracks, 1.13e-07 J, 115 μs, UNSAT
+  verified_unsat/N22/unsat_4.cnf: 65 backtracks, 6.5e-08 J, 66 μs, UNSAT
+  verified_unsat/N22/unsat_6.cnf: 29 backtracks, 2.9e-08 J, 39 μs, UNSAT
+  verified_unsat/N22/unsat_7.cnf: 83 backtracks, 8.3e-08 J, 108 μs, UNSAT
+  verified_unsat/N22/unsat_3.cnf: 37 backtracks, 3.7e-08 J, 55 μs, UNSAT
+  verified_unsat/N22/unsat_2.cnf: 35 backtracks, 3.5e-08 J, 54 μs, UNSAT
+  verified_unsat/N22/unsat_0.cnf: 47 backtracks, 4.7e-08 J, 54 μs, UNSAT
+  verified_unsat/N22/unsat_1.cnf: 57 backtracks, 5.7e-08 J, 67 μs, UNSAT
+  verified_unsat/N22/unsat_9.cnf: 81 backtracks, 8.1e-08 J, 98 μs, UNSAT
+  verified_unsat/N22/unsat_8.cnf: 67 backtracks, 6.7e-08 J, 71 μs, UNSAT
+  AVERAGE: 61.4 backtracks, 6.14e-08 J (hardness=0)
+  SAT/UNSAT: 0/10
+
+Testing N=24 (10 VERIFIED UNSAT instances)...
+  verified_unsat/N24/unsat_5.cnf: 27 backtracks, 2.7e-08 J, 41 μs, UNSAT
+  verified_unsat/N24/unsat_4.cnf: 53 backtracks, 5.3e-08 J, 78 μs, UNSAT
+  verified_unsat/N24/unsat_6.cnf: 75 backtracks, 7.5e-08 J, 85 μs, UNSAT
+  verified_unsat/N24/unsat_7.cnf: 89 backtracks, 8.9e-08 J, 117 μs, UNSAT
+  verified_unsat/N24/unsat_3.cnf: 119 backtracks, 1.19e-07 J, 146 μs, UNSAT
+  verified_unsat/N24/unsat_2.cnf: 77 backtracks, 7.7e-08 J, 114 μs, UNSAT
+  verified_unsat/N24/unsat_0.cnf: 31 backtracks, 3.1e-08 J, 53 μs, UNSAT
+  verified_unsat/N24/unsat_1.cnf: 53 backtracks, 5.3e-08 J, 81 μs, UNSAT
+  verified_unsat/N24/unsat_9.cnf: 79 backtracks, 7.9e-08 J, 97 μs, UNSAT
+  verified_unsat/N24/unsat_8.cnf: 71 backtracks, 7.1e-08 J, 97 μs, UNSAT
+  AVERAGE: 67.4 backtracks, 6.74e-08 J (hardness=0)
+  SAT/UNSAT: 0/10
+
+Testing N=26 (10 VERIFIED UNSAT instances)...
+  verified_unsat/N26/unsat_5.cnf: 41 backtracks, 4.1e-08 J, 76 μs, UNSAT
+  verified_unsat/N26/unsat_4.cnf: 53 backtracks, 5.3e-08 J, 94 μs, UNSAT
+  verified_unsat/N26/unsat_6.cnf: 139 backtracks, 1.39e-07 J, 185 μs, UNSAT
+  verified_unsat/N26/unsat_7.cnf: 77 backtracks, 7.7e-08 J, 107 μs, UNSAT
+  verified_unsat/N26/unsat_3.cnf: 67 backtracks, 6.7e-08 J, 95 μs, UNSAT
+  verified_unsat/N26/unsat_2.cnf: 119 backtracks, 1.19e-07 J, 196 μs, UNSAT
+  verified_unsat/N26/unsat_0.cnf: 81 backtracks, 8.1e-08 J, 125 μs, UNSAT
+  verified_unsat/N26/unsat_1.cnf: 157 backtracks, 1.57e-07 J, 179 μs, UNSAT
+  verified_unsat/N26/unsat_9.cnf: 47 backtracks, 4.7e-08 J, 80 μs, UNSAT
+  verified_unsat/N26/unsat_8.cnf: 163 backtracks, 1.63e-07 J, 242 μs, UNSAT
+  AVERAGE: 94.4 backtracks, 9.44e-08 J (hardness=0)
+  SAT/UNSAT: 0/10
+
+Testing N=28 (10 VERIFIED UNSAT instances)...
+  verified_unsat/N28/unsat_5.cnf: 185 backtracks, 1.85e-07 J, 277 μs, UNSAT
+  verified_unsat/N28/unsat_4.cnf: 245 backtracks, 2.45e-07 J, 347 μs, UNSAT
+  verified_unsat/N28/unsat_6.cnf: 89 backtracks, 8.9e-08 J, 149 μs, UNSAT
+  verified_unsat/N28/unsat_7.cnf: 135 backtracks, 1.35e-07 J, 380 μs, UNSAT
+  verified_unsat/N28/unsat_3.cnf: 123 backtracks, 1.23e-07 J, 210 μs, UNSAT
+  verified_unsat/N28/unsat_2.cnf: 153 backtracks, 1.53e-07 J, 243 μs, UNSAT
+  verified_unsat/N28/unsat_0.cnf: 149 backtracks, 1.49e-07 J, 214 μs, UNSAT
+  verified_unsat/N28/unsat_1.cnf: 111 backtracks, 1.11e-07 J, 200 μs, UNSAT
+  verified_unsat/N28/unsat_9.cnf: 127 backtracks, 1.27e-07 J, 185 μs, UNSAT
+  verified_unsat/N28/unsat_8.cnf: 107 backtracks, 1.07e-07 J, 149 μs, UNSAT
+  AVERAGE: 142.4 backtracks, 1.424e-07 J (hardness=0)
+  SAT/UNSAT: 0/10
+
+Testing N=30 (10 VERIFIED UNSAT instances)...
+  verified_unsat/N30/unsat_5.cnf: 253 backtracks, 2.53e-07 J, 342 μs, UNSAT
+  verified_unsat/N30/unsat_4.cnf: 61 backtracks, 6.1e-08 J, 124 μs, UNSAT
+  verified_unsat/N30/unsat_6.cnf: 61 backtracks, 6.1e-08 J, 113 μs, UNSAT
+  verified_unsat/N30/unsat_7.cnf: 195 backtracks, 1.95e-07 J, 256 μs, UNSAT
+  verified_unsat/N30/unsat_3.cnf: 199 backtracks, 1.99e-07 J, 321 μs, UNSAT
+  verified_unsat/N30/unsat_2.cnf: 81 backtracks, 8.1e-08 J, 142 μs, UNSAT
+  verified_unsat/N30/unsat_0.cnf: 159 backtracks, 1.59e-07 J, 293 μs, UNSAT
+  verified_unsat/N30/unsat_1.cnf: 103 backtracks, 1.03e-07 J, 219 μs, UNSAT
+  verified_unsat/N30/unsat_9.cnf: 167 backtracks, 1.67e-07 J, 262 μs, UNSAT
+  verified_unsat/N30/unsat_8.cnf: 219 backtracks, 2.19e-07 J, 323 μs, UNSAT
+  AVERAGE: 149.8 backtracks, 1.498e-07 J (hardness=0)
+  SAT/UNSAT: 0/10
+
+
+========================================
+EXPONENTIAL GROWTH ANALYSIS
+========================================
+
+Fitted model: E(N) = 3.11651e-09 * exp(0.129086 * N)
+Exponential coefficient: beta = 0.129086 (theory predicts ~0.73)
+E0 = 3.11651e-09 J
+
+Comparison:
+  N | Measured (J) | Predicted (J) | Ratio
+  --|--------------|---------------|---------
+  20 | 4.12e-08 | 4.12e-08 | 1
+  22 | 6.14e-08 | 5.3336e-08 | 1.15119
+  24 | 6.74e-08 | 6.90467e-08 | 0.976151
+  26 | 9.44e-08 | 8.93853e-08 | 1.0561
+  28 | 1.424e-07 | 1.15715e-07 | 1.23061
+  30 | 1.498e-07 | 1.498e-07 | 1
+
+========================================
+COMPUTATIONAL CONDUCTANCE
+========================================
+
+σ_comp = Variables / Energy
+
+  N  | σ_comp (vars/J) | Hardness Score
+-----|-----------------|----------------
+  20 | 4.85437e+08 | 0
+  22 | 3.58306e+08 | 0
+  24 | 3.56083e+08 | 0
+  26 | 2.75424e+08 | 0
+  28 | 1.96629e+08 | 0
+  30 | 2.00267e+08 | 0
+
+Conductance decay: 2.42395x (0.384523 orders of magnitude)
+
+========================================
+BENCHMARK COMPLETE
+========================================
