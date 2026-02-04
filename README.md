@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-**Paper:** *The Crossover Point: When NP-Complete Becomes Harder Than P*
+**Paper:** *The Scale-Dependent Complexity Barrier: Measuring the XOR-SAT to 3-SAT Crossover*
 
 **Authors:** Entelec AI Protocol & Alfred Recheshter
 
